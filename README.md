@@ -13,3 +13,8 @@ The image need an input from multiple lines, so you can send the input from a fi
 Where text.txt is a file in the local computer (you can see an example in the project), so you need a file in your local to test it
 
 `cat test.txt | docker run --rm -i my-decoder`
+
+## run test
+You can execute the test with the next command
+
+`cargo test`
