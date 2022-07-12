@@ -14,6 +14,10 @@ Where text.txt is a file in the local computer (you can see an example in the pr
 
 `cat test.txt | docker run --rm -i my-decoder`
 
+or you can run with the image docker:
+
+`cat test.txt | docker run --rm -i karlitasg7/my-decoder`
+
 ## run test
 You can execute the test with the next command
 
