@@ -9,5 +9,3 @@ RUN cargo build --release
 
 # Run the binary
 ENTRYPOINT ["./target/release/my-decoder"]
-
-CMD [""]
